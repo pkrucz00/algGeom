@@ -1,0 +1,13 @@
+nformacje na temat narzędzia graficznego
+
+Sugerujemy Państwu użycie specjalnego narzędzia do rysowania konstrukcji geometrycznych wykorzystywanych w trakcie laboratoriów. Jest ono napisane w języku Python3 i oparte o Projekt Jupyter. Wykorzystuje też biblioteki Numpy (który jest częścią biblioteki Scipy) oraz MatPlotLib.
+
+Jeśli będą Państwo chcieli uruchomić laboratorium w domu to potrzebne jest zainstalowanie Jupytera, Numpy'a i Matplotliba. Najprostszym sposobem jest skorzystanie z gotowego pakietu Anaconda (w wersji na Windows zaznaczenie w trakcie instalacji, żeby dodał swoją ścieżkę do systemowego PATHa znacznie ułatwia korzystanie z niego).
+
+Aby je uruchomić na komputerach należy pobrać plik geometria.ipynb i w katalogu, do którego go ściągnęliśmy, uruchomić polecenie jupyter notebook. W oknie przeglądarki, które się pokaże, uruchamiamy plik laboratorium.
+
+Korzystanie z Notebooków Jupytera jest relatywnie proste. Kod wpisujemy w osobnych komórkach, które uruchamiamy klikając Run lub naciskając Ctrl+Enter. Ważną własnością jest fakt, że uruchamiana komórka ma dostęp do wszystkich zmiennych i klas zdefiniowanych w komórkach wcześniej uruchomionych. Z tego wynika zasada, że na początku pracy z laboratorium trzeba uruchomić komórki z konfiguracją.
+
+Żeby rysować ładne wykresy konieczne jest zawołanie w danej komórce polecenia %matplotlib notebook.
+
+W zadaniach wymagających zmiany precyzji obliczeń można wykorzystać typy dostarczane przez NumPy'a.

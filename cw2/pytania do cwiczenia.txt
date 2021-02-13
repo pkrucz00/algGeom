@@ -1,0 +1,11 @@
+Jakie i ile zbiorów "własnych" należy stworzyć?
+Czy funkcja generująca punkty na prostokącie
+ jest tylko dla prostokątów o bokach równoległych do osi?
+Czy należy w sprawozdaniu umieścić wszystkie graficzne obrazowania
+ algorytmu? Dla 100 punktów to trochę dużo, czy można użyć mniejszych
+ zbiorów?
+
+
+Czy usuwanie punktów współliniowych jest konieczne?
+ Nie przyśpiesza to asymptotycznie kodu, zmniejsza stos
+

@@ -1,0 +1,1 @@
+Aby uruchomić program, należy zainstalować moduł sortedcontainers za pomocą komendy pip install sortedcontainers
